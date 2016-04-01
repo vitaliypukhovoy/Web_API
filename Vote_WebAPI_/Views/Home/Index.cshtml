@@ -1,0 +1,58 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Survay2</title>
+    
+   
+</head>
+<body>
+    <div>
+    <ul id="voice" />
+        <div/>
+
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+        <script>
+
+          var url = '@Url.Action("","api/Voice")';
+
+         $(document).ready(function () {
+        $.getJSON(url)
+        .done(function (data) {
+            $.each(data, function (key, value) {
+                $('<li>', { text: value.NameUser }).appendTo($('#voice'))
+            }
+            )
+        });
+    });
+
+        </script>
+
+</body>
+</html>
+
+
+@*$('#btnSave').click(function () {
+    $.ajax({
+        url: "/Home/SaveDetailedInfo",
+        type: "POST",
+        data: JSON.stringify({ 'Options': someData}),
+        dataType: "json",
+        traditional: true,
+        contentType: "application/json; charset=utf-8",
+        success: function (data) {
+            if (data.status == "Success") {
+                alert("Done");
+            } else {
+                alert("Error occurs on the Database level!");
+            }
+        },
+        error: function () {
+            alert("An error has occured!!!");
+        }
+    });
+});*@
+
