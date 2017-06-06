@@ -1,0 +1,10 @@
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\bin\Debug\Hello_WebApi_client.exe.config
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\bin\Debug\Hello_WebApi_client.exe
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\bin\Debug\Hello_WebApi_client.pdb
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\obj\Debug\Hello_WebApi_client.csprojResolveAssemblyReference.cache
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\obj\Debug\Hello_WebApi_client.exe
+D:\Projects\Hello_WebApi_client\Hello_WebApi_client\obj\Debug\Hello_WebApi_client.pdb
